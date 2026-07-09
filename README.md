@@ -19,8 +19,7 @@
 * **Payment Integration:** TON Blockchain API
 
 ## 📥 Download & Usage
-*(لینک دانلود فایل اجرایی به زودی در بخش Releases قرار می‌گیرد)*
-
+https://github.com/mamadmamadu11-dotcom/FontCustomizer-Pro/releases/download/v1.0.0/FontCustomizer_Pro_Setup_v1.0.0.exe
 ## 🔗 Clone the Project
 If you want to explore the source code:
 ```bash
