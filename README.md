@@ -32,11 +32,11 @@
 ### The Big Problem for Web Developers
 
 Imagine building a professional website with **Font Awesome 6**:
-- Main font file: **~200 KB**
+- Main font file: **~1 MB**
 - Total icons available: **~10,000**
 - Icons you actually use: **Only 20!**
 
-**The Result:** Users download 200 KB of fonts when they only need 20 icons!
+**The Result:** Users download 1 MB of fonts when they only need 20 icons!
 
 ### The Revolutionary Solution
 
@@ -53,8 +53,8 @@ Then it extracts **only the icons you actually use** and creates a **lightweight
 
 ### Before Using FontCustomizer Pro:
 ```
-📦 Font Awesome 6: 200 KB
-⏱️ Load Time: 300ms
+📦 Font Awesome 6: 1 MB
+⏱️ Load Time: 3000ms
 📉 Pagespeed Score: 72
 ```
 
