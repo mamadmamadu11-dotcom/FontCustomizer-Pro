@@ -35,7 +35,6 @@
 
 ---
 
-## 📖 The FontCustomizer Pro Story
 
 ### The Big Problem for Web Developers
 
