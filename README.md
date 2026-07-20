@@ -1,5 +1,29 @@
 
-<img src="https://raw.githubusercontent.com/mamadmamadu11-dotcom/FontCustomizer-Pro/main/logo.png" alt="FontCustomizer Pro Logo" width="100"/>
+<div align="center">
+  <img src="logo.png" alt="FontCustomizer Pro Logo" width="100"/>
+  
+  # 🎨 FontCustomizer Pro
+  
+  ### The Smartest Icon Font Optimization Tool for Faster Websites
+  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](...)
+  [![.NET Version](https://img.shields.io/badge/.NET-6.0-blueviolet)](...)
+</div>
+
+---
+
+## 📸 Screenshots
+
+<div align="center">
+  <img src="FoScreen.PNG" alt="FontCustomizer Pro Main Interface" width="800"/>
+  
+  *Main interface showing project scan results and icon detection*
+</div>
+
+---
+
+## 📖 The FontCustomizer Pro Story
+...
   
   # 🎨 FontCustomizer Pro
   
