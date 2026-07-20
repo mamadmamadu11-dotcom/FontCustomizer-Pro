@@ -231,9 +231,9 @@ If this project helped you:
 
 - **Questions & Issues**: [Create an Issue](https://github.com/mamadmamadu11-dotcom/FontCustomizer-Pro/issues)
 - **Email**: mamadmamadu11@gmail.com
-- **Telegram**: [@mamadmamadu11](https://t.me/mamadmamadu11)
+- **Telegram**: [@mMohammad_mrgh](https://t.me/Mohammad_mrgh)
 
----
+
 
 <div align="center">
   <b>Made with ❤️ for the Web Development Community</b>
