@@ -1,10 +1,10 @@
-
+```markdown
 <div align="center">
   <img src="https://img.icons8.com/fluency/96/000000/font.png" alt="FontCustomizer Pro Logo" width="100"/>
   
   # 🎨 FontCustomizer Pro
   
-  ### هوشمندترین ابزار بهینه‌سازی فونت‌های آیکون برای وب‌سایت‌های سریع‌تر
+  ### The Smartest Icon Font Optimization Tool for Faster Websites
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   [![.NET Version](https://img.shields.io/badge/.NET-6.0-blueviolet)](https://dotnet.microsoft.com/)
@@ -15,45 +15,51 @@
 
 ---
 
-## 📖 داستان FontCustomizer Pro
+## 📖 The FontCustomizer Pro Story
 
-### مشکل بزرگ توسعه‌دهندگان وب
+### The Big Problem for Web Developers
 
-فرض کن داری یه وب‌سایت حرفه‌ای با **Font Awesome 6** می‌سازی:
-- فایل فونت اصلی: **~200 کیلوبایت**
-- تعداد کل آیکون‌ها: **~10,000 عدد**
-- آیکون‌هایی که واقعاً استفاده می‌کنی: **فقط 20 تا!**
+Imagine building a professional website with **Font Awesome 6**:
+- Main font file: **~200 KB**
+- Total icons available: **~10,000**
+- Icons you actually use: **Only 20!**
 
-**نتیجه:** کاربر باید 200 کیلوبایت فونت دانلود کنه در حالی که فقط به 20 تاش نیاز داره!
+**The Result:** Users download 200 KB of fonts when they only need 20 icons!
 
-### راه‌حل انقلابی FontCustomizer Pro
+### The Revolutionary Solution
 
-این نرم‌افزار مثل یه **دوربین مداربسته هوشمند** کل پروژه‌ات رو اسکن می‌کنه و دقیقاً تشخیص می‌ده:
-- کدوم آیکون‌ها رو استفاده کردی؟
-- چند بار از هر کدوم استفاده شده؟
-- چه فونت‌هایی در پروژه ات داری؟
+This software works like a **smart security camera** scanning your entire project and detecting:
+- Which icons are you using?
+- How many times is each icon used?
+- What fonts are in your project?
 
-بعدش **فقط همون آیکون‌های مورد استفاده** رو استخراج می‌کنه و یه **فایل فونت سبک و بهینه** می‌سازه.
-📊 مقایسه عملکرد:
-
-قبل از استفاده:
-📦 Font Awesome 6: 200 KB
-⏱️ زمان بارگذاری: 300ms
-📉 امتیاز Pagespeed: 72
-
-بعد از استفاده:
-📦 Font Customized: 15 KB (کاهش 92.5%!)
-⏱️ زمان بارگذاری: 45ms (افزایش 6.6 برابر!)
-📈 امتیاز Pagespeed: 94
-
-text
+Then it extracts **only the icons you actually use** and creates a **lightweight, optimized font file**.
 
 ---
 
-## 🚀 چه کاری انجام می‌دهد؟
+## 📊 Performance Comparison
 
-### ۱. اسکن هوشمند پروژه
-📁 پروژه شما
+### Before Using FontCustomizer Pro:
+```
+📦 Font Awesome 6: 200 KB
+⏱️ Load Time: 300ms
+📉 Pagespeed Score: 72
+```
+
+### After Using FontCustomizer Pro:
+```
+📦 Custom Font: 15 KB (92.5% reduction!)
+⏱️ Load Time: 45ms (6.6x faster!)
+📈 Pagespeed Score: 94
+```
+
+---
+
+## 🚀 What Does It Do?
+
+### 1. Smart Project Scanning
+```
+📁 Your Project
 ├── 📄 index.html
 ├── 📄 about.aspx
 ├── 📄 style.css
@@ -61,161 +67,175 @@ text
 ├── 📄 header.php
 └── 📄 theme.cshtml
 
-🔍 FontCustomizer Pro اسکن می‌کند...
-✅ 156 فایل بررسی شد
-✅ 42 آیکون منحصر‌به‌فرد پیدا شد
-✅ 3 فونت مختلف شناسایی شد
+🔍 FontCustomizer Pro is scanning...
+✅ 156 files analyzed
+✅ 42 unique icons found
+✅ 3 different fonts detected
+```
 
-text
+### 2. Precise Icon Extraction
+- Finds all `class="fa-*"` patterns
+- Checks `data-icon` and `data-*` attributes
+- Identifies used Unicode characters
+- Detects icons inside `::before` and `::after` pseudo-elements
 
-### ۲. استخراج دقیق آیکون‌ها
-- تمام `class="fa-*"` ها رو پیدا می‌کنه
-- `data-icon` و `data-*` attributeها رو بررسی می‌کنه
-- `unicode` های استفاده شده رو شناسایی می‌کنه
-- حتی آیکون‌های درون `::before` و `::after` رو هم می‌فهمه!
-
-### ۳. تولید فونت سفارشی
-- **WOFF2**: فوق‌العاده فشرده (بهترین برای وب)
-- **TTF**: برای سیستم‌های قدیمی
-- **CSS**: به همراه تمام کلاس‌های مورد نیاز
-- **Map File**: برای دیباگ راحت‌تر
-
----
-
-## ✨ ویژگی‌های کلیدی
-
-| ویژگی | توضیح |
-|-------|--------|
-| 🔍 **اسکن خودکار** | کل پروژه رو بررسی می‌کنه بدون نیاز به تنظیمات دستی |
-| 🎯 **تشخیص دقیق** | حتی آیکون‌های مخفی در CSS رو پیدا می‌کنه |
-| 📦 **فشرده‌سازی فوق‌العاده** | حجم فایل رو تا 95% کاهش می‌ده |
-| 🚀 **یک‌کلیک** | با یه دکمه کل عملیات رو انجام بده |
-| 📊 **گزارش کامل** | لیست کامل آیکون‌های استفاده شده رو نشون می‌ده |
-| 🔄 **پشتیبانی از چند فونت** | Font Awesome, Material Icons, Bootstrap Icons و... |
-| 💼 **حرفه‌ای** | مناسب برای پروژه‌های بزرگ و تیمی |
+### 3. Custom Font Generation
+- **WOFF2**: Ultra-compressed (best for web)
+- **TTF**: For older systems
+- **CSS**: With all required classes
+- **Map File**: For easier debugging
 
 ---
 
-## 🎯 چه کسانی به این ابزار نیاز دارند؟
+## ✨ Key Features
 
-### 1️⃣ توسعه‌دهندگان فرانت‌اند
-> "دیگه نگران حجم بالای فونت‌ها نیستم! سایت‌های من الان خیلی سریع‌تر لود می‌شن."
-
-### 2️⃣ متخصصین سئو و بهینه‌سازی
-> "با این ابزار، امتیاز Pagespeed Insight سایت‌های مشتری‌هام از 70 به 95 رسید!"
-
-### 3️⃣ طراحان وب‌سایت
-> "دیگه مجبور نیستم بین کیفیت آیکون‌ها و سرعت سایت یکی رو انتخاب کنم. هر دو رو دارم!"
-
-### 4️⃣ مدیران پروژه
-> "هزینه‌های هاستینگ و پهنای باند رو تا 30% کاهش دادیم."
-
-### 5️⃣ توسعه‌دهندگان WordPress
-> "قالب‌های سبک‌تر و سریع‌تری می‌سازم که مشتری‌ها عاشقش می‌شن."
+| Feature | Description |
+|---------|-------------|
+| 🔍 **Auto Scan** | Scans entire project without manual setup |
+| 🎯 **Precise Detection** | Finds even hidden icons in CSS |
+| 📦 **Ultra Compression** | Reduces file size up to 95% |
+| 🚀 **One-Click** | Complete operation with a single button |
+| 📊 **Full Report** | Shows complete list of used icons |
+| 🔄 **Multi-Font Support** | Font Awesome, Material Icons, Bootstrap Icons, and more |
+| 💼 **Professional** | Suitable for large and team projects |
 
 ---
 
-## 📈 تأثیر بر سئو و Core Web Vitals
+## 🎯 Who Needs This Tool?
 
-### قبل از استفاده:
+### 1️⃣ Frontend Developers
+> "I no longer worry about large font files! My websites load much faster now."
+
+### 2️⃣ SEO & Optimization Specialists
+> "With this tool, my clients' Pagespeed Insight scores went from 70 to 95!"
+
+### 3️⃣ Web Designers
+> "I don't have to choose between icon quality and site speed anymore. I have both!"
+
+### 4️⃣ Project Managers
+> "We reduced hosting and bandwidth costs by up to 30%."
+
+### 5️⃣ WordPress Developers
+> "I build lighter, faster themes that clients absolutely love."
+
+---
+
+## 📈 Impact on SEO & Core Web Vitals
+
+### Before:
+```
 ❌ Largest Contentful Paint (LCP): 2.8s
 ❌ First Input Delay (FID): 180ms
 ❌ Cumulative Layout Shift (CLS): 0.25
 ❌ Total Font Size: 200KB
+```
 
-text
+### After:
+```
+✅ Largest Contentful Paint (LCP): 1.2s (57% improvement)
+✅ First Input Delay (FID): 95ms (47% improvement)
+✅ Cumulative Layout Shift (CLS): 0.05 (80% improvement)
+✅ Total Font Size: 15KB (92.5% reduction)
+```
 
-### بعد از استفاده:
-✅ Largest Contentful Paint (LCP): 1.2s (بهبود 57%)
-✅ First Input Delay (FID): 95ms (بهبود 47%)
-✅ Cumulative Layout Shift (CLS): 0.05 (بهبود 80%)
-✅ Total Font Size: 15KB (کاهش 92.5%)
-
-text
-
-> **نتیجه:** سایت شما در نتایج گوگل رتبه بالاتری می‌گیره! 📈
+> **Result:** Your website ranks higher in Google search results! 📈
 
 ---
 
-## 🛠️ تکنولوژی‌های استفاده شده
+## 🛠️ Technology Stack
+
+```
 🖥️ Framework: WPF (.NET 6.0)
 📐 Architecture: MVVM (CommunityToolkit.Mvvm)
 🎨 UI: Material Design
 🔐 License: TON Blockchain
 📦 Package: InnoSetup
-
-text
+```
 
 ---
 
-## 📥 نصب و راه‌اندازی
+## 📥 Installation & Setup
 
-### روش سریع (دانلود نصب‌کننده):
+### Quick Method (Download Installer):
 ```bash
-👉 دانلود از بخش Releases
-👉 اجرای فایل Setup
-👉 انتخاب پوشه پروژه
-👉 کلیک روی "شروع اسکن"
-👉 منتظر بمون تا فونت جدید ساخته بشه
-روش توسعه (از سورس کد):
-bash
+👉 Download from Releases section
+👉 Run the Setup file
+👉 Select your project folder
+👉 Click "Start Scan"
+👉 Wait for the new font to be generated
+```
+
+### Development Method (From Source Code):
+```bash
 git clone https://github.com/mamadmamadu11-dotcom/FontCustomizer-Pro.git
 cd FontCustomizer-Pro
 dotnet restore
 dotnet build
 dotnet run
-🎬 دمو و آموزش
-https://img.youtube.com/vi/XXXXXXXXXXX/0.jpg
+```
 
-کلیک کنید تا ویدیوی کامل آموزش رو ببینید (به زودی)
+---
 
-🔗 پروژه‌های مرتبط
-با ابزارهای دیگه من آشنا شوید:
+## 🎬 Demo & Tutorial
 
-🛠️ Batch-Coding-Tools - ابزارهای خط فرمان برای برنامه‌نویسی با هوش مصنوعی
+[![Video Tutorial](https://img.youtube.com/vi/XXXXXXXXXXX/0.jpg)](https://youtu.be/XXXXXXXXXXX)
 
-🎨 FontCustomizer Pro - خودتون هستید! 😊
+> Click to watch the full tutorial video (Coming soon)
 
-🤝 مشارکت در توسعه
-از مشارکت شما استقبال می‌کنیم!
+---
 
-Fork کنید
+## 🔗 Related Projects
 
-Branch جدید بسازید (feature/AmazingFeature)
+Check out my other tools:
 
-تغییرات رو Commit کنید
+- 🛠️ **[Batch-Coding-Tools](https://github.com/mamadmamadu11-dotcom/Batch-Coding-Tools)** - Command-line tools for AI-assisted coding
+- 🎨 **FontCustomizer Pro** - That's you! 😊
 
-Push به برنچ
+---
 
-Pull Request باز کنید
+## 🤝 Contributing
 
-ایده‌های برای مشارکت:
-اضافه کردن پشتیبانی از فونت‌های جدید
+We welcome your contributions!
 
-بهبود الگوریتم اسکن
+1. **Fork** the repository
+2. Create your **Feature Branch** (`git checkout -b feature/AmazingFeature`)
+3. **Commit** your changes (`git commit -m 'Add some AmazingFeature'`)
+4. **Push** to the branch (`git push origin feature/AmazingFeature`)
+5. Open a **Pull Request**
 
-ساخت نسخه مک و لینوکس
+### Ideas for Contributions:
+- Add support for new font libraries
+- Improve the scanning algorithm
+- Build Mac and Linux versions
+- Add new themes to the UI
 
-اضافه کردن تم‌های جدید به UI
+---
 
-📄 لایسنس
-این پروژه تحت لایسنس MIT منتشر شده است.
+## 📄 License
 
-⭐ حمایت
-اگر این پروژه به شما کمک کرد:
+This project is licensed under the **MIT License**.
 
-بهش Star ⭐ بدهید
+---
 
-با دیگران به اشتراک بگذارید
+## ⭐ Support
 
-مشکلات رو گزارش کنید
+If this project helped you:
+- Give it a **Star** ⭐
+- **Share** it with others
+- **Report** issues you find
+- **Suggest** improvements
 
-پیشنهاد بدید برای بهبود
+---
 
-📞 ارتباط با ما
-سوالات و مشکلات: ایجاد Issue
+## 📞 Contact
 
-ایمیل: mamadmamadu11@gmail.com
+- **Questions & Issues**: [Create an Issue](https://github.com/mamadmamadu11-dotcom/FontCustomizer-Pro/issues)
+- **Email**: mamadmamadu11@gmail.com
+- **Telegram**: [@mamadmamadu11](https://t.me/mamadmamadu11)
 
+---
 
-<div align="center"> <b>ساخت ایران 🇮🇷 | با ❤️ برای جامعه توسعه‌دهندگان وب</b> </div> ```
+<div align="center">
+  <b>Made with ❤️ for the Web Development Community</b>
+</div>
+```
