@@ -25,7 +25,7 @@
 ## 📖 The FontCustomizer Pro Story
 ...
   
-  # 🎨 FontCustomizer Pro
+
   
   ### The Smartest Icon Font Optimization Tool for Faster Websites
   
