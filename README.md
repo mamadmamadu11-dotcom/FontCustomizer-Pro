@@ -6,8 +6,11 @@
   
   ### The Smartest Icon Font Optimization Tool for Faster Websites
   
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](...)
-  [![.NET Version](https://img.shields.io/badge/.NET-6.0-blueviolet)](...)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![.NET Version](https://img.shields.io/badge/.NET-6.0-blueviolet)](https://dotnet.microsoft.com/)
+  [![Platform](https://img.shields.io/badge/Platform-Windows-blue)](https://www.microsoft.com/windows)
+  [![Downloads](https://img.shields.io/github/downloads/mamadmamadu11-dotcom/FontCustomizer-Pro/total.svg)](https://github.com/mamadmamadu11-dotcom/FontCustomizer-Pro/releases)
+  [![Stars](https://img.shields.io/github/stars/mamadmamadu11-dotcom/FontCustomizer-Pro)](https://github.com/mamadmamadu11-dotcom/FontCustomizer-Pro/stargazers)
 </div>
 
 ---
@@ -27,13 +30,7 @@
   
 
   
-  ### The Smartest Icon Font Optimization Tool for Faster Websites
   
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  [![.NET Version](https://img.shields.io/badge/.NET-6.0-blueviolet)](https://dotnet.microsoft.com/)
-  [![Platform](https://img.shields.io/badge/Platform-Windows-blue)](https://www.microsoft.com/windows)
-  [![Downloads](https://img.shields.io/github/downloads/mamadmamadu11-dotcom/FontCustomizer-Pro/total.svg)](https://github.com/mamadmamadu11-dotcom/FontCustomizer-Pro/releases)
-  [![Stars](https://img.shields.io/github/stars/mamadmamadu11-dotcom/FontCustomizer-Pro)](https://github.com/mamadmamadu11-dotcom/FontCustomizer-Pro/stargazers)
 </div>
 
 ---
